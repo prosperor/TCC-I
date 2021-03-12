@@ -1,0 +1,18 @@
+-reprodução e controle de musica em dispositivos de baixo custo
+-analise sonora para algoritmo identificador de música
+-classificação de genero musical
+-Manipulação de dados musicais
+-auto tune
+-Instrumentos Musicais
+-OSC (Open Sound Control) 
+
+-Especificamente, as linguagens de programação musical permitem dar ao computador voz e
+ouvidos. Diversos campos fazem uso constante de linguagens de programação musical, como: a área de
+processamento de sinais para música, engenharia de áudio, sonificação, produção musical, criação de
+novos instrumentos musicais, composição musical apoiada por computador, composição algorítmica,
+análise musical apoiada por computador, criação de instalação artísticas, sistemas multimídias, e
+realidade virtual. As linguagens de programação musical permitem a manipulação de dados musicais
+tanto simbólicos, como MIDI (Musical Instrument Device Interface), MusicXML ou ABC e música
+simbólica em geral, quanto direto, como streams de áudio. A discussão e utilização de linguagens de
+programação musical é comum nas Artes, especialmente nas áreas que envolvem música e tecnologia, e
+em alguns nichos da computação.
