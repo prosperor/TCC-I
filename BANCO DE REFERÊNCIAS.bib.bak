@@ -1,17 +1,19 @@
 % Encoding: UTF-8
 
 @Article{VORTEX2614,
-  author   = {Rodrigo de Araujo e José Mauro Sandy e Elder José Cirilo e Flávio Luiz Schiavoni},
-  journal  = {Revista Vórtex},
-  title    = {Análise e classificação de Linguagens de Programação Musical},
-  year     = {2018},
-  issn     = {2317–9937},
-  number   = {2},
-  volume   = {6},
-  abstract = {As linguagens de programação musical datam dos primórdios da computação e sofreram - e ainda sofrem - uma grande influência da evolução e pesquisa na área de Linguagens de Programação.  Esta influência resultou em um ecossistema de linguagens com diferentes paradigmas, mas sob o mesmo domínio, a Computação Musical. Neste artigo, apresentamos as questões históricas da evolução destas linguagens, as suas questões técnicas e de desenvolvimento e também uma análise e avaliação das mesmas levando em consideração a facilidade de uso e critérios como legibilidade, expressividade e facilidade de escrita e também a influência da comunidade no desenvolvimento das mesmas. Por fim, apresentamos uma discussão sobre esta análise e avaliação que pode auxiliar artistas e programadores.},
-  file     = {:BIBLIOTECA/Análise e classificação de Linguagens de Programação Musical.pdf:PDF},
-  priority = {prio1},
-  url      = {http://periodicos.unespar.edu.br/index.php/vortex/article/view/2614},
+  author     = {Rodrigo de Araujo e José Mauro Sandy e Elder José Cirilo e Flávio Luiz Schiavoni},
+  journal    = {Revista Vórtex},
+  title      = {Análise e classificação de Linguagens de Programação Musical},
+  year       = {2018},
+  issn       = {2317–9937},
+  number     = {2},
+  volume     = {6},
+  abstract   = {As linguagens de programação musical datam dos primórdios da computação e sofreram - e ainda sofrem - uma grande influência da evolução e pesquisa na área de Linguagens de Programação.  Esta influência resultou em um ecossistema de linguagens com diferentes paradigmas, mas sob o mesmo domínio, a Computação Musical. Neste artigo, apresentamos as questões históricas da evolução destas linguagens, as suas questões técnicas e de desenvolvimento e também uma análise e avaliação das mesmas levando em consideração a facilidade de uso e critérios como legibilidade, expressividade e facilidade de escrita e também a influência da comunidade no desenvolvimento das mesmas. Por fim, apresentamos uma discussão sobre esta análise e avaliação que pode auxiliar artistas e programadores.},
+  file       = {:BIBLIOTECA/Análise e classificação de Linguagens de Programação Musical.pdf:PDF},
+  priority   = {prio1},
+  ranking    = {rank5},
+  readstatus = {read},
+  url        = {http://periodicos.unespar.edu.br/index.php/vortex/article/view/2614},
 }
 
 @Article{Zhang2013,
@@ -107,6 +109,7 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   volume   = {144},
   abstract = {The development of models for learning music similarity from audio media files is an increasingly important task for the entertainment industry. This work proposes a novel music classification model based on metric learning whose main objective is to learn a personalized metric for each customer. The metric learning process considers the learning of a set of parameterized distances employing a structured prediction approach from a set of MP3 audio files containing several music genres according to the users taste. The structured prediction solution aims to maximize the separation margin between genre centroids and to minimize the overall intra-cluster distances. To extract the acoustic information we use the Mel-Frequency Cepstral Coecient (MFCC) and made a dimensionality reduction using Principal Components Analysis (PCA). We attest the model validity performing a set of experiments and comparing the training and testing results with baseline algorithms, such as K-means and Soft Margin Linear Support Vector Machine (SVM). Also, to prove the prediction capacity, we compare our results with two recent works with good prediction results on the GTZAN dataset. Experiments show promising results and encourage the future development of an online version of the learning model to be applied in streaming platforms.},
   doi      = {https://doi.org/10.1016/j.eswa.2019.113071},
+  file     = {:BIBLIOTECA/A Music Classification Model based on Metric Learning Applied to MP3 Audio Files.pdf:PDF},
   keywords = {Music similarity, Metric learning, Feature extraction, Mel frequency cepstral coefficient, Principal components analysis},
   ranking  = {rank5},
   url      = {https://www.sciencedirect.com/science/article/pii/S0957417419307882},
@@ -230,22 +233,6 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   ranking   = {rank5},
 }
 
-@Article{Fasciani2018,
-  author    = {Fasciani, Stefano and Wyse, Lonce},
-  journal   = {Computer music journal},
-  title     = {Vocal Control of Sound Synthesis Personalized by Unsupervised Machine Listening and Learning},
-  year      = {2018},
-  issn      = {0148-9267},
-  number    = {1},
-  pages     = {37--59},
-  volume    = {42},
-  file      = {Artigo:BIBLIOTECA/Vocal Control of Sound Synthesis Personalized by Unsupervised Machine Listening and Learning.pdf:PDF},
-  keywords  = {Computer Sound Processing ; Frequency Synthesizers ; Machine Learning ; Tone Color (Music) ; Music},
-  language  = {eng},
-  publisher = {The MIT Press},
-  url       = {https://muse.jhu.edu/article/691463},
-}
-
 @Article{Haworth2015,
   author    = {Haworth, Christopher},
   journal   = {Computer music journal},
@@ -292,6 +279,21 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   keywords  = {Acoustics ; Computer Animation ; Finite-Difference Time-Domain Method ; Sound Synthesis ; Engineering},
   language  = {eng},
   publisher = {ACM},
+}
+
+@Article{LuizSchiavoni2018,
+  author       = {Luiz Schiavoni, Flávio and Luiz Gonçalves, Luan and Mauro da Silva Sandy, José},
+  journal      = {Revista Música Hodie},
+  title        = {Mosaicode and the visual programming of web application for music and multimedia},
+  year         = {2018},
+  month        = {jun.},
+  number       = {1},
+  pages        = {132 - 146},
+  volume       = {18},
+  abstractnote = {&lt;div class=&quot;page&quot; title=&quot;Page 1&quot;&gt; &lt;div class=&quot;layoutArea&quot;&gt; &lt;div class=&quot;column&quot;&gt; &lt;p&gt;The development of audio application demands a high knowledge about this application domain, traditional program- ming logic and programming languages. It is possible to use a Visual Programming Language to ease the application development, including experimentations and creative exploration of the language. In this paper we present a Visual Programming Environment to create Web Audio applications, called Mosaicode. Different from other audio creation platforms that use a visual approach, our environment is a source code generator based on code snippets to create complete applications.&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&#38;gt;},
+  doi          = {10.5216/mh.v18i1.53577},
+  file         = {:BIBLIOTECA/Mosaicode and the visual programming of web application for music and multimedia.pdf:PDF},
+  url          = {https://www.revistas.ufg.br/musica/article/view/53577},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
