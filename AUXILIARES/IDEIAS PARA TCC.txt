@@ -5,6 +5,7 @@
 -auto tune
 -Instrumentos Musicais
 -OSC (Open Sound Control) 
+-Algoritimo reconhecedor de tonalidade, e notas da música (extraidor)
 
 -Especificamente, as linguagens de programação musical permitem dar ao computador voz e
 ouvidos. Diversos campos fazem uso constante de linguagens de programação musical, como: a área de
