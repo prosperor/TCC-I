@@ -1,11 +1,14 @@
--reprodução e controle de musica em dispositivos de baixo custo
--analise sonora para algoritmo identificador de música
--classificação de genero musical
--Manipulação de dados musicais
--auto tune
--Instrumentos Musicais
+-Reprodução e controle de musica em dispositivos de baixo custo - Eliminado - Motivo: desinteresse
+
+-Classificação de genero musical - Em análise
+
+-Análise sonora para algoritmo identificador de música - Em análise
+
+-Auto tune
+
 -OSC (Open Sound Control) 
 -Algoritimo reconhecedor de tonalidade, e notas da música (extraidor)
+
 
 -Especificamente, as linguagens de programação musical permitem dar ao computador voz e
 ouvidos. Diversos campos fazem uso constante de linguagens de programação musical, como: a área de
