@@ -32,9 +32,9 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   doi        = {https://doi.org/10.1016/j.crhy.2019.07.005},
   file       = {:BIBLIOTECA/Fourier at the heart of computer music From harmonic sounds to texture.pdf:PDF},
   keywords   = {Fourier analysis, Computer music, Audio signal processing, Analyse de Fourier, Musique par ordinateur, Traitement du signal audio-numérique},
-  priority   = {prio1},
-  ranking    = {rank5},
-  readstatus = {skimmed},
+  priority   = {prio3},
+  ranking    = {rank2},
+  readstatus = {read},
   url        = {https://www.sciencedirect.com/science/article/pii/S1631070519301057},
 }
 
