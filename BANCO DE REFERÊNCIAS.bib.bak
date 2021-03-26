@@ -284,4 +284,17 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   url          = {https://www.revistas.ufg.br/musica/article/view/53577},
 }
 
+@Article{article,
+  author     = {Pennycook, Bruce},
+  journal    = {ACM Comput. Surv.},
+  title      = {Computer-Music Interfaces: A Survey},
+  year       = {1985},
+  month      = {06},
+  pages      = {267-289},
+  volume     = {17},
+  doi        = {10.1145/4468.4470},
+  file       = {:BIBLIOTECA/SURVEY/Survey - Computer-Music_Interfaces_A_Survey.pdf:PDF},
+  readstatus = {skimmed},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
