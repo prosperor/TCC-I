@@ -1,0 +1,40 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF-8
+
+
+@inproceedings{Yang2017,
+  author =  {B. Yang and X. Wei and C. Liu},
+  booktitle = {2017 24th Asia-Pacific Software Engineering Conference Workshops (APSECW)},
+  title = {Sentiments Analysis in GitHub Repositories: An Empirical Study},
+  year = {2017},
+  volume = {},
+  number = {},
+  pages = {84-89},
+  keywords = {Computer bugs;Computer science;Correlation;Electronic mail;Open source software;Sentiment analysis},
+  doi = {10.1109/APSECW.2017.13},
+  ISSN = {},
+  month = {Dec},
+}
+
+@article{alkassebeh2009,
+  Title                    = {Network fault detection with Wiener filter-based agent},
+  Author                   = {Al-Kasassbeh, Mouhammd and Adda, Mo},
+  Journal                  = {Journal of Network and Computer Applications},
+  Year                     = {2009},
+  Number                   = {4},
+  Pages                    = {824--833},
+  Volume                   = {32},
+
+  Publisher                = {Elsevier}
+}
+
+@manual{lipsum2014,
+    title = {lipsum -- Easy access to the Lorem Ipsum dummy text},
+    author = {Patrick Happel},
+    year = {2014},
+    note = {\LaTeX~package version 1.3},
+    url = {https://www.ctan.org/pkg/lipsum},
+}
+
+
+

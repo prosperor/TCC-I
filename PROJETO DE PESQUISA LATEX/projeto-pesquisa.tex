@@ -1,0 +1,89 @@
+%%%%%%%%%%%%%%%%%%
+%%%   Template para utilização   %%%
+%%%%%%%%%%%%%%%%%%
+
+%Para melhor utilização da ferramenta, utilize o pdfLaTeX+MakeIndex+BibTeX%
+
+\documentclass[12pt,openright,oneside,a4paper,english,french,spanish,brazil]{unifil}
+
+\titulo{Título} % Título da monografia
+\autor{Seu Nome} % Nome do autor
+\instituicao{Centro Universitário Filadélfia}
+\local{Londrina}
+\data{2019} % Ano de publicação
+\preambulo{Nome do Curso} % Nome do curso
+\orientador{Nome do Orientador} % Nome do orientador
+
+\begin{document}
+
+\frenchspacing
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Elementos pré-textuais %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pretextual
+
+\imprimircapa
+\include{./pre-folhaderosto}
+\include{./pre-resumo}
+
+%\par
+%\vspace{11cm}
+
+\tableofcontents*
+
+  \setlength\absleftindent{0cm}
+  \setlength\absrightindent{0cm}
+  
+  %fonte do ambiente%
+  \abstracttextfont{\normalfont\normalsize}
+
+  %intentação e espaçamento entre parágrafos%
+  \setlength{\absparindent}{0pt}
+  \setlength{\absparsep}{18pt}
+
+%\pdfbookmark[0]{\listfigurename}{lof}
+%\listoffigures*
+%\cleardoublepage
+
+\textual
+
+\renewcommand{\ABNTEXchapterfont}{\fontfamily{cmr}\fontseries{b}\selectfont}
+\renewcommand{\ABNTEXchapterfontsize}{\Large}
+
+\renewcommand{\ABNTEXsectionfont}{\uppercase{\fontfamily{cmr}\fontseries{b}\selectfont}}
+\renewcommand{\ABNTEXsectionfontsize}{\large}
+
+\include{./cap-introducao}
+\include{./cap-metodologia}
+\include{./cap-resultados-esperados}
+\include{./cap-estado-arte}
+\include{./cap-cronograma}
+\include{./cap-fichamento}
+
+\cleardoublepage
+
+\postextual
+
+%%Colocar as referências conforme as normas da ABNT, somente as utilizadas no trabalho e presentes neste manuscrito.
+
+\bibliography{bibliografia}{}
+
+% \begin{thebibliography}{99}
+
+% \bibitem{ABNTEX2:2014}
+% {ABNTEX2; ARAUJO, L. C. \textbf{A classe abntex2}: Documentos técnicos e científicos brasileiros compatíveis com as normas ABNT. Sine loco, v. 1.9.2; 2014.}.
+
+% \bibitem{Biazin:2008}
+% {BIAZIN, D. T. \textbf{Normas da ABNT e padronização de trabalhos acadêmicos}. Londrina: Instituto Filadélfia de Londrina; 2008.}
+
+% \bibitem{Buneman:2011}
+% {BUNEMAN, P.; CHENEY, J.; LINDLEY, S. et al. \textbf{DBWiki}: A Structured Wiki for Curated Data and Collaborative Data Management. Athens: SIGMOD’11; 2011.}
+
+% \bibitem{Wikibooks:2014}
+% {WIKIBOOKS. \textbf{LaTeX}: The Free Textbook Project. Disponível em: <http://en.wikibooks.org/wiki/LaTeX>. Acesso em: 09 abr. 2014.}
+
+% \end{thebibliography}
+
+\end{document}
