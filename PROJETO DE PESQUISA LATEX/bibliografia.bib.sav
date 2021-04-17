@@ -63,7 +63,7 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   abstract     = {Traditionally, stage lighting regulations have required that professionally trained technicians operate the lighting equipment; however, contemporary demands for higher-quality performances require more preparation before a performance. Thus, technicians or club DJs now spend double to triple the time previously required before a show on matching the lighting control sequence musical instrument digital interface (MIDI) with the music, which is very time consuming. Thus, a methodology for automatic stage-lighting regulation would be very useful. Recently, the development of music emotion recognition (MER) and neural network algorithms has progressed significantly. Feelings related to music can be recognized and are even quantifiable using a supervised machine learning approach. In this study, a variety of music signal features from 2,087 song clips were captured, and then, a cross-validation test based on the support vector machine's (SVM) accuracy of classifying them into Thayer's emotion plane was applied to the main features related to music emotions, in order to produce linear quantitative values for describing music emotions. Music emotions and color preferences for stage lighting were subsequently studied. Using the experimental results, a support vector regression (SVR) model was trained to construct simulations. To increase the realism of the simulations, we developed an automatic music segment detection methodology based on music signal intensity to capture the different music strengths and feelings in each segment. Furthermore, music genres were studied as a factor for developing a comprehensive automatic stage lighting system based on feelings, genre, and the intensity of each segment of music.},
   date         = {2017},
   doi          = {https://doi.org/10.1016/j.ins.2017.05.026},
-  file         = {:BIBLIOTECA/Methodology for stage lighting control based on music emotions.pdf:PDF},
+  file         = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Methodology for stage lighting control based on music emotions.pdf:PDF;Fichamento:C\:/Users/prosp/Documents/GitHub/TCC-I/AUXILIARES/Fichamentos/Fichamento Methodology for Stage Lighting Control Based on Music Emotions.tex:TEX},
   journaltitle = {Inform Sci},
   keywords     = {Automatic stage-lighting regulation, Music emotion recognition, Lighting color regulation based on music emotions and genre, Support vector regression (SVR), Automatic music segment detection},
   ranking      = {rank5},
@@ -120,11 +120,13 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
 
 @Article{Zangerle2018,
   author       = {E. {Zangerle} and C. {Chen} and M. {Tsai} and Y. {Yang}},
-  date         = {2018},
-  journaltitle = {IEEE Transactions on Affective Computing},
   title        = {Leveraging Affective Hashtags for Ranking Music Recommendations},
-  doi          = {10.1109/TAFFC.2018.2846596},
   pages        = {1-1},
+  date         = {2018},
+  doi          = {10.1109/TAFFC.2018.2846596},
+  file         = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Leveraging Affective Hashtags for Ranking Music Recommendations.pdf:PDF;Fichamento:C\:/Users/prosp/Documents/GitHub/TCC-I/AUXILIARES/Fichamentos/Fichamento Leveraging Affective Hashtags for Ranking Music Recommendations.tex:TEX},
+  journaltitle = {IEEE Transactions on Affective Computing},
+  readstatus   = {read},
 }
 
 @Article{Castillo2021,
@@ -133,6 +135,7 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   pages        = {1-1},
   date         = {2021},
   doi          = {10.1109/ACCESS.2021.3053864},
+  file         = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Web-based Music Genre Classification for Timeline Song Visualization and Analysis.pdf:PDF},
   journaltitle = {IEEE Access},
   ranking      = {rank5},
 }
@@ -241,7 +244,7 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   pages   = {614-626},
   volume  = {11},
   doi     = {10.1109/TAFFC.2018.2820691},
-  file    = {:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Novel Audio Features for Music Emotion Recognition.pdf:PDF},
+  file    = {:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Novel Audio Features for Music Emotion Recognition.pdf:PDF;Fichamento:C\:/Users/prosp/Documents/GitHub/TCC-I/AUXILIARES/Fichamentos/Fichamento Novel Audio Features for Music Emotion Recognition.tex:TEX},
 }
 
 @Article{Rumiantcev2020,
