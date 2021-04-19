@@ -70,21 +70,6 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   url          = {https://www.sciencedirect.com/science/article/pii/S0020025517307351},
 }
 
-@Article{Silva2020,
-  author       = {Angelo Cesar Mendes da Silva and Maurício Archanjo Nunes Coelho and Raul Fonseca Neto},
-  title        = {A Music Classification model based on metric learning applied to MP3 audio files},
-  issn         = {0957-4174},
-  pages        = {113071},
-  volume       = {144},
-  abstract     = {The development of models for learning music similarity from audio media files is an increasingly important task for the entertainment industry. This work proposes a novel music classification model based on metric learning whose main objective is to learn a personalized metric for each customer. The metric learning process considers the learning of a set of parameterized distances employing a structured prediction approach from a set of MP3 audio files containing several music genres according to the users taste. The structured prediction solution aims to maximize the separation margin between genre centroids and to minimize the overall intra-cluster distances. To extract the acoustic information we use the Mel-Frequency Cepstral Coecient (MFCC) and made a dimensionality reduction using Principal Components Analysis (PCA). We attest the model validity performing a set of experiments and comparing the training and testing results with baseline algorithms, such as K-means and Soft Margin Linear Support Vector Machine (SVM). Also, to prove the prediction capacity, we compare our results with two recent works with good prediction results on the GTZAN dataset. Experiments show promising results and encourage the future development of an online version of the learning model to be applied in streaming platforms.},
-  date         = {2020},
-  doi          = {https://doi.org/10.1016/j.eswa.2019.113071},
-  journaltitle = {Expert Systems with Applications},
-  keywords     = {Music similarity, Metric learning, Feature extraction, Mel frequency cepstral coefficient, Principal components analysis},
-  ranking      = {rank5},
-  url          = {https://www.sciencedirect.com/science/article/pii/S0957417419307882},
-}
-
 @Article{Velankar2015,
   author       = {M.R. Velankar and H.V. Sahasrabuddhe and P.A. Kulkarni},
   date         = {2015},
@@ -135,23 +120,9 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   pages        = {1-1},
   date         = {2021},
   doi          = {10.1109/ACCESS.2021.3053864},
-  file         = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Web-based Music Genre Classification for Timeline Song Visualization and Analysis.pdf:PDF},
+  file         = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Web-based Music Genre Classification for Timeline Song Visualization and Analysis.pdf:PDF;Fichamento:C\:/Users/prosp/Documents/GitHub/TCC-I/AUXILIARES/Fichamentos/Fichamento Web-based Music Genre Classification for Timeline Song Visualization and Analysis.tex:TEX},
   journaltitle = {IEEE Access},
   ranking      = {rank5},
-}
-
-@Article{NavarroCaceres2017,
-  author       = {Navarro-Cáceres, María and Bajo, Javier and Corchado, Juan Manuel},
-  date         = {2017},
-  journaltitle = {Engineering applications of artificial intelligence},
-  title        = {Applying social computing to generate sound clouds},
-  issn         = {0952-1976},
-  language     = {eng},
-  pages        = {171--183},
-  volume       = {57},
-  abstract     = {<p>Human beings make decisions on a daily basis according to their social environment. Social information given by such social contexts provides the basis for inferences, planning and coordination of any activity. Social machines aim to incorporate this concept of social nature and make it possible to design digital systems that make information visible to the users. This paper presents a social machine implemented as a VO where humans and machines collaborate in a creative process to transform a picture into a musical sound cloud. The VO is implemented by a MAS, and defines specialized roles for extracting sounds from the color pixels of the image. As a part of the social machine and in order to demonstrate the viability of the system, the prototype built from this model is evaluated by experts who rate the sounds produced following consonance criteria.</p>},
-  keywords     = {Synesthesia ; Social Computing ; Consonance ; Music Generation ; Sound Cloud ; Synesthesia ; Social Computing ; Consonance ; Music Generation ; Sound Cloud ; Applied Sciences ; Computer Science},
-  publisher    = {Elsevier Ltd},
 }
 
 @Article{Geronazzo2019,
@@ -278,6 +249,16 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   file     = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Web music emotion recognition based on higher effective gene expression programming.pdf:PDF;Fichamento:C\:/Users/prosp/Documents/GitHub/TCC-I/AUXILIARES/Fichamentos/Entregues/Fichamento Web Music Emotion Recognition Based on Higher Effective Gene Expression Programming.tex:TEX},
   keywords = {Music emotion recognition, Evolutionary algorithm, Gene expression programming, Support vector machine, Music information retrieval},
   url      = {https://www.sciencedirect.com/science/article/pii/S0925231212007035},
+}
+
+@InProceedings{8405505,
+  author    = {S. {Sharma} and P. {Fulzele} and I. {Sreedevi}},
+  booktitle = {2018 IEEE Symposium on Computer Applications Industrial Electronics (ISCAIE)},
+  title     = {Novel hybrid model for music genre classification based on support vector machine},
+  year      = {2018},
+  pages     = {395-400},
+  doi       = {10.1109/ISCAIE.2018.8405505},
+  file      = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Novel hybrid model for music genre classification based on support vector machine.pdf:PDF},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
