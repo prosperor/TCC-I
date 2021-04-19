@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Fichamento}
+\author{GABRIEL PRÓSPERO REALIZADOR  SILVA}
+\date{Março 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+
+\section{DADOS DO ARTIGO}
+\textbf{NOVEL HYBRID MODEL FOR MUSIC GENRE CLASSIFICARION BASED ON SUPPORT VECTOR MACHINE\\}
+\author{AUTOR \\}
+\date{DATA EM QUE O ARTIGO FOI FEITO}
+
+\section{RESENHA}
+Neste artigo, um novo método de classificação de gêneros musicais é proposto com base no empilhamento de Support Vector Machine (SVM) com Relevance Vector Machine (RVM) e árvores de decisão.
+A Rede Neural Convolucional tem sido utilizada para classificar os gêneros com base na representação visual de sinais [3].
+Outra abordagem para esse problema era explorar a propriedade dos dados de serem séries temporais. O modelo LSTM-RNN foi usado para atender a esse fator de dados [4]. O uso de Redes Neurais Profundas (DNN) auxilia no treinamento de grandes quantidades de dados [5-8]. O desenvolvimento do DNN levou à sua aplicação ativa neste campo [9-10]. Outras técnicas utilizadas incluem k-Nearest Neighbor [11], que foi superado por SVM [12]. Neste artigo, um modelo híbrido de SVM, RVM e um classificador de conjuntos de árvores de decisão é usado para classificar gêneros musicais.
+Os recursos acústicos dos sinais de áudio são amplamente classificados em duas categorias; Perceptivo, baseado na maneira como o áudio é ouvido por humanos como Rhythm, Pitch e Timbre e Physical, baseado em propriedades estatísticas e matemáticas de sinais como Zero Crossing Rate (ZCR), energia e frequência [13].
+Para calcular os MFCCs de um sinal, ele é dividido em vários quadros curtos para manter o sinal constante. Em seguida, as estimativas do periodograma do espectro de potência são calculadas para todos os quadros para identificar as frequências presentes nos quadros. Em seguida, o banco de filtros com espaçamento de Mel é calculado e a energia em cada filtro é somada. A quantidade de energia em várias regiões de frequência é agora conhecida. Para ter as características mais próximas do que os humanos ouvem, o logaritmo dessas energias é calculado.
+Os descritores de espectro estatístico (SSD) são vitais para computar momentos estatísticos em bandas críticas geradas usando o espectrograma da escala de Bark, bem como para delinear as variações de energia rítmica observadas nessas regiões críticas. Esses sete momentos estatísticos mencionados são calculados: média, mediana, variância, assimetria, curtose, valores mínimo e máximo para cada banda crítica agrupada no espectrograma de escala de Bark que compõe o conjunto de recursos SSD. A escala de Bark é convertida em escala de decibéis. Esses valores são posteriormente alterados para produzir valores Sone equivalentes antes que esses momentos sejam finalmente calculados no espectrograma resultante após as transformações. O conjunto final de recursos SSD de um arquivo de áudio é a mediana de todos os segmentos extraídos do sinal de áudio fornecido.
+Os recursos de histograma de ritmo se mostram muito úteis em termos de coleta de características rítmicas de um arquivo de áudio. Em contraste com recursos como SSD, o processamento não é feito em todas as bandas críticas, em vez disso, um histograma é formado por 60 bins, somando as frequências de modulação para todas as 24 bandas críticas com frequências que variam de 0,168 Hz a 10 Hz. Semelhante ao SSD, o conjunto de recursos RH também é a mediana dos respectivos histogramas de todos os segmentos processados.
+O espectro de qualquer sinal de áudio é indicativo de como as frequências são distribuídas dentro do sinal capturado. A média ponderada de todas essas frequências é o centróide espectral desse sinal particular. Diferentes gêneros e subgêneros musicais geralmente têm centróides espectrais característicos que podem ser um fator crucial no estabelecimento da linha de fronteira.
+O roll off espectral é um recurso confiável para medir a forma do sinal de entrada. No espectro de potência, o roll of point espectral pode ser calculado determinando a frequência limite ou o número de bins em que 80 por cento da energia é distribuída abaixo desta frequência [14]. O ponto de roll off espectral pode ser encontrado pela seguinte equação, onde Mt [n] é a Transformada de Fourier para t-ésimo quadro e enésima categoria de frequência.
+
+\section{PLAVRAS-CHAVES}
+\begin{itemize}
+    \item Convolutional Neural Network
+    \item ROC curve
+    \item RVM
+    \item SVM
+    \item Mel Frequency Cepstral Coefficients (MFCC)
+    \item 
+\end{itemize}
+
+\end{document}
+
