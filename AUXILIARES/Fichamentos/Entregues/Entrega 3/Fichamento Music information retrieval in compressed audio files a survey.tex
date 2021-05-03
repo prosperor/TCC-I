@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Fichamento}
+\author{GABRIEL PRÓSPERO REALIZADOR  SILVA}
+\date{Maio 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+
+\section{DADOS DO ARTIGO}
+\textbf{Music information retrieval in compressed audio files a survey \\}
+\author{Markos Zampoglou \\}
+\date{2014}
+
+\section{RESENHA}
+Para começar, praticamente todo método MIR é baseado na extração de uma série de recursos do descritor do sinal de áudio.
+a abordagem direta favorecida por quase todos os sistemas MIR propostos até agora é descompactar os dados de áudio e realizar a extração de recursos no sinal modulado por código de pulso (PCM) resultante.
+Embora nem sempre seja considerada uma tarefa MIR, a detecção de música em arquivos de áudio e sua separação de outros tipos de conteúdo de áudio (como fala, silêncio ou efeitos sonoros) é certamente uma tarefa relacionada à música.
+Independentemente do tipo de informação de domínio comprimido usada por um sistema (valores de sub-bandas, coeficientes de MDCT ou fatores de escala), em todos os trabalhos aqui relatados o silêncio é sempre detectado por meio de um limiar simples. No entanto, a distinção entre música e fala (e qualquer outro tipo de som considerado pelo modelo) pode ser alcançada por meio de uma variedade de métodos. Um conjunto de abordagens são aquelas baseadas nos valores das sub-bandas (Nakajima et al., 1999; Rizzi, Buccino, Panella, & Uncini, 2006; Shieh, 2003; Tzanetakis & Cook, 2000).
+Uma série de tarefas MIR são baseadas na realização de correspondência de similaridade entre arquivos que contêm gravações diferentes, mas que compartilham certas características comuns: no caso de algoritmos de domínio compactado, esforços têm sido feitos para consulta por zumbido, consulta por canto, cantor identificação e classificação de gênero. Consulta por canto e consulta por zumbido são duas tarefas muito semelhantes, nas quais o usuário produz vocalmente uma aproximação de uma faixa de música desejada e o sistema tenta reconhecer e recuperar a faixa desejada (ou seus metadados) do banco de dados . A principal diferença entre as duas tarefas é que na primeira o usuário tenta reproduzir a letra da faixa (portanto, referindo-se às músicas e não às faixas instrumentais), além da melodia real, enquanto na última o usuário cantarola inarticulamente, tentando emular apenas a melodia.
+A abordagem mais antiga para estimar o tempo a partir de informações de domínio compactado é (Wang & Vilermo, 2001). É uma abordagem rápida baseada nos padrões de tamanho da janela do MP3 e coeficientes MDCT. Outro conjunto importante de tarefas de recuperação de informação musical diz respeito à estrutura interna dos arquivos de música e sua representação. A sumarização musical trata da segmentação automática de uma canção em seus elementos estruturais (verso, ponte, refrão / refrão etc.) e sua representação consecutiva por alguns desses elementos.
+Em mais de duas décadas de pesquisa de recuperação de informações musicais, quase todas as tarefas populares de MIR foram abordadas, pelo menos uma vez, com o uso de recursos de domínio compactado.
+\section{PLAVRAS-CHAVES}
+\begin{itemize}
+    \item PCM
+    \item <Min-Max, PARC> algorithm
+    \item STFT
+    \item modelo de Markov
+\end{itemize}
+
+\end{document}
+
