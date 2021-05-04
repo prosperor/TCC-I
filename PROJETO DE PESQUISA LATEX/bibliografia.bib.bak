@@ -164,17 +164,6 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   readstatus   = {skimmed},
 }
 
-@InProceedings{Lin2016,
-  author    = {C. {Lin} and M. {Liu} and W. {Hsiung} and J. {Jhang}},
-  booktitle = {2016 International Conference on Machine Learning and Cybernetics (ICMLC)},
-  title     = {Music emotion recognition based on two-level support vector classification},
-  pages     = {375-389},
-  volume    = {1},
-  date      = {2016},
-  doi       = {10.1109/ICMLC.2016.7860930},
-  file      = {:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Music emotion recognition based on two-level support vector classification.pdf:PDF},
-}
-
 @Article{8327886,
   author  = {R. {Panda} and R. {Malheiro} and R. P. {Paiva}},
   journal = {IEEE Transactions on Affective Computing},
@@ -247,20 +236,36 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
 }
 
 @Article{Zampoglou2014,
-  author    = {Zampoglou, Markos and Malamos, Athanasios G},
-  journal   = {The new review of hypermedia and multimedia},
-  title     = {Music information retrieval in compressed audio files: a survey},
-  year      = {2014},
-  issn      = {1361-4568},
-  number    = {3},
-  pages     = {189--206},
-  volume    = {20},
-  abstract  = {<p>In this paper, we present an organized survey of the existing literature on music information retrieval systems in which descriptor features are extracted directly from the compressed audio files, without prior decompression to pulse-code modulation format. Avoiding the decompression step and utilizing the readily available compressed-domain information can significantly lighten the computational cost of a music information retrieval system, allowing application to large-scale music databases. We identify a number of systems relying on compressed-domain information and form a systematic classification of the features they extract, the retrieval tasks they tackle and the degree in which they achieve an actual increase in the overall speed-as well as any resulting loss in accuracy. Finally, we discuss recent developments in the field, and the potential research directions they open toward ultra-fast, scalable systems.</p>},
-  file      = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Music information retrieval in compressed audio files a survey.pdf:PDF;Fichamento:C\:/Users/prosp/Documents/GitHub/TCC-I/AUXILIARES/Fichamentos/Entregues/Entrega 3/Fichamento Music information retrieval in compressed audio files a survey.tex:TEX},
-  keywords  = {Music Information Retrieval ; Audio Compression ; Mpeg 7 ; Computer Science},
+  author     = {Zampoglou, Markos and Malamos, Athanasios G},
+  journal    = {The new review of hypermedia and multimedia},
+  title      = {Music information retrieval in compressed audio files: a survey},
+  year       = {2014},
+  issn       = {1361-4568},
+  number     = {3},
+  pages      = {189--206},
+  volume     = {20},
+  abstract   = {<p>In this paper, we present an organized survey of the existing literature on music information retrieval systems in which descriptor features are extracted directly from the compressed audio files, without prior decompression to pulse-code modulation format. Avoiding the decompression step and utilizing the readily available compressed-domain information can significantly lighten the computational cost of a music information retrieval system, allowing application to large-scale music databases. We identify a number of systems relying on compressed-domain information and form a systematic classification of the features they extract, the retrieval tasks they tackle and the degree in which they achieve an actual increase in the overall speed-as well as any resulting loss in accuracy. Finally, we discuss recent developments in the field, and the potential research directions they open toward ultra-fast, scalable systems.</p>},
+  file       = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Music information retrieval in compressed audio files a survey.pdf:PDF;Fichamento:C\:/Users/prosp/Documents/GitHub/TCC-I/AUXILIARES/Fichamentos/Entregues/Entrega 3/Fichamento Music information retrieval in compressed audio files a survey.tex:TEX},
+  keywords   = {Music Information Retrieval ; Audio Compression ; Mpeg 7 ; Computer Science},
+  language   = {eng},
+  publisher  = {Taylor & Francis},
+  readstatus = {read},
+  url        = {http://www.tandfonline.com/doi/abs/10.1080/13614568.2014.889223},
+}
+
+@Article{Choi2018,
+  author    = {Choi, Keunwoo and Fazekas, György and Cho, Kyunghyun and Sandler, Mark},
+  journal   = {arXiv.org},
+  title     = {A Tutorial on Deep Learning for Music Information Retrieval},
+  year      = {2018},
+  issn      = {2331-8422},
+  abstract  = {Following their success in Computer Vision and other areas, deep learning techniques have recently become widely adopted in Music Information Retrieval (MIR) research. However, the majority of works aim to adopt and assess methods that have been shown to be effective in other domains, while there is still a great need for more original research focusing on music primarily and utilising musical knowledge and insight. The goal of this paper is to boost the interest of beginners by providing a comprehensive tutorial and reducing the barriers to entry into deep learning for MIR. We lay out the basic principles and review prominent works in this hard to navigate the field. We then outline the network structures that have been successful in MIR problems and facilitate the selection of building blocks for the problems at hand. Finally, guidelines for new tasks and some advanced topics in deep learning are discussed to stimulate new research in this fascinating field.},
+  address   = {Ithaca},
+  file      = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/A Tutorial on Deep Learning for Music Information Retrieval.pdf:PDF;FICHAMENTO:C\:/Users/prosp/Documents/GitHub/TCC-I/AUXILIARES/Fichamentos/Entregues/Entrega 3/Fichamento A Tutorial on Deep Learning for Music Information Retrieval.tex:TEX},
+  keywords  = {Information Retrieval ; Music ; Computer Vision ; Machine Learning ; Information Retrieval ; Domains ; Computer Vision and Pattern Recognition ; Sound},
   language  = {eng},
-  publisher = {Taylor & Francis},
-  url       = {http://www.tandfonline.com/doi/abs/10.1080/13614568.2014.889223},
+  publisher = {Cornell University Library, arXiv.org},
+  url       = {http://search.proquest.com/docview/2072233560/},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

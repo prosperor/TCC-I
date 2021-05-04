@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Fichamento}
+\author{GABRIEL PRÓSPERO REALIZADOR  SILVA}
+\date{Abril 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+
+\section{DADOS DO ARTIGO}
+\textbf{A Tutorial on Deep Learning for Music Information Retrieval\\}
+\author{Keunwoo Choi \\}
+\date{2018}
+
+\section{RESENHA}
+Nos últimos anos, os métodos de aprendizagem profunda tornaram-se mais populares no campo da pesquisa de recuperação de informações musicais (MIR).
+Mais tarde, a unidade recorrente de memória de curto prazo longa (LSTM) foi introduzida [42] para modelagem de sequência.
+Um nó é análogo a um neurônio biológico e representa um valor escalar. Uma camada consiste em um conjunto de nós e representa um vetor.
+Por exemplo, pode-se usar coeficientes de cepstrum de frequência de Mel (MFCCs), assumindo que eles fornecem informações relevantes para a tarefa, em seguida, treinar um classificador (por exemplo, regressão logística), que mapeia os MFCCs para o rótulo.
+Em DNNs, a descida do gradiente sobre várias camadas é chamada de retropropagação [84], que calcula o gradiente da função de perda em relação aos nós em várias camadas usando a regra da cadeia.
+O problema do gradiente de desaparecimento acontece quando o fluxo do gradiente se torna muito lento devido a um gradiente muito pequeno, ∇J (w).
+O ReLU foi introduzido como uma alternativa para resolver o problema do gradiente de desaparecimento [32]. O ReLU foi a primeira escolha em muitas aplicações recentes de aprendizado profundo. Para a camada de saída, é recomendado usar uma função de ativação que tenha a mesma faixa de saída para a faixa da verdade.
+Pode ser complicado prever se uma abordagem de aprendizado profundo funcionaria melhor do que os convencionais de aprendizado de máquina para uma determinada tarefa. Isso depende de muitos aspectos do problema, como o tamanho do conjunto de dados e a complexidade do modelo. Em geral, muitas pesquisas de MIR baseadas em aprendizado profundo usam conjuntos de dados que têm mais de mil amostras de dados, por exemplo, classificação de gênero com gênero musical Gtzan [106] (1.000 faixas) e marcação de música com conjunto de dados de milhões de canções [7] (milhões de faixas) .
+Korzeniowski et al. [51] usaram apenas 383 faixas para reconhecimento de acordes, mas o número real de amostras de dados é muito maior do que o número de faixas porque há muitas ocorrências de acordes em uma faixa de música. A quantidade mínima de amostras de dados também depende da complexidade do modelo, portanto, esses números fornecem apenas estimativas aproximadas do tamanho do conjunto de dados desejado.
+MIR é um campo de pesquisa altamente interdisciplinar e amplamente definido como extração de informações da música e suas aplicações [27]. Muitas vezes, música significa o conteúdo de áudio, embora de outra forma seu escopo se estenda a outros tipos de informações musicais, por exemplo, letras, metadados de música ou histórico de escuta do usuário.
+Observe que nem todos os problemas podem ser resolvidos apenas com áudio. O contexto cultural e social pode ser útil para prever algumas marcas musicais, por exemplo, era ou gênero, embora as informações possam ser inferidas de conteúdos de áudio. Algumas tarefas são definidas completamente irrelevantes para o conteúdo de áudio, por exemplo, análise de letras.
+A maioria das abordagens de aprendizado profundo em MIR tira proveito de representações bidimensionais em vez da representação unidimensional original que é o sinal de áudio (discreto). Em muitos casos, as duas dimensões são eixos de frequência e tempo. Ao aplicar o método de aprendizado profundo para problemas de MIR, é particularmente importante entender as propriedades das representações de dados de áudio.
+O sinal de áudio é freqüentemente chamado de áudio bruto, em comparação com outras representações que são transformações baseadas nele. Um sinal de áudio digital consiste em amostras de áudio que especificam as amplitudes em intervalos de tempo. Na maioria dos trabalhos de MIR, os pesquisadores assumem que o conteúdo da música é dado como um sinal de áudio digital, isolando a tarefa do efeito dos canais acústicos.
+O espectrograma Mel é uma representação 2D otimizada para a percepção auditiva humana. Ele comprime o STFT no eixo de frequência e, portanto, pode ser mais eficiente em seu tamanho, enquanto preserva as informações mais perceptualmente importantes. O espectrograma Mel fornece apenas a magnitude (ou energia) das caixas de frequência de tempo, o que significa que não é invertível para sinais de áudio. Existem outras escalas que são semelhantes às bandas de mel e baseadas na psicologia da audição - a escala da casca, largura de banda retangular equivalente (ERB) e filtros de gammatone [75].
+O cromagrama, também frequentemente chamado de perfil de classe de tom, fornece a distribuição de energia em um conjunto de classes de tom, muitas vezes com os 12 tons da música ocidental. [31] [114].
+Recentemente, camadas densas são freqüentemente usadas em estruturas híbridas; eles foram combinados com o modelo Hidden Markov para reconhecimento de acordes [24] e detecção de batidas fortes [28], com camadas recorrentes para transcrição de vozes cantadas [82], com convnet para transcrição de piano [49] e em cepstrum e STFT para classificação de gênero [48 ]
+Max-pooling é freqüentemente usado em MIR para adicionar invariante de tempo / frequência.
+Uma pesquisa pioneira de convnet para MIR são as redes convolucionais de crenças profundas para classificação de gênero [58]. Os primeiros trabalhos baseavam-se na entrada do MFCC para reduzir a computação [62], [63] para a classificação do gênero. Muitos trabalhos foram então introduzidos com base em representações de frequência de tempo, por exemplo, CQT para reconhecimento de acordes [45], reconhecimento de acordes de guitarra [46], classificação de gênero [116], transcrição [96], espectrograma mel para detecção de limites [89], detecção de início [90], predição de hit [118], aprendizado de similaridade [68], reconhecimento de instrumento [39], marcação de música [26], [15], [17], [59] e STFT para detecção de limite [36], separação vocal [100] e detecção vocal [88].
+Conforme explicado na Seção 3.2, é importante minimizar o tamanho dos dados para um treinamento eficiente. Para reduzir o tamanho dos dados, os sinais de áudio costumam ser misturados e amostrados para 8-16 kHz. Depois disso, pode-se tentar o pré-processamento em tempo real com utilitários como Kapre [20], Pescador5, Fuel [113], Muda [71], caso contrário, pré-computação e armazenamento podem ser um problema na prática.
+Ao contrário, para problemas com uma escala de tempo de decisão longa, deve haver um método implementado para agregar os recursos ao longo do tempo.
+Os métodos mais usados ​​são
+i) agrupamento, ii) convoluções ampliadas e iii) camadas recorrentes com configuração muitos para um. i) Pooling: Com camadas convolucionais, um método muito comum é usar camadas max-pooling ao longo do eixo do tempo (e freqüentemente, bem como da frequência)
+\section{PLAVRAS-CHAVES}
+\begin{itemize}
+    \item Redes neurais profundas
+    \item Hiperparâmetros
+    \item Convolucional
+    \item Camadas recorrentes
+\end{itemize}
+
+\end{document}
+
