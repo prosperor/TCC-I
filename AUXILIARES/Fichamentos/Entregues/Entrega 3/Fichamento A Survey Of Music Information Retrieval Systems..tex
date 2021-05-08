@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Fichamento}
+\author{GABRIEL PRÓSPERO REALIZADOR  SILVA}
+\date{Abril 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+
+\section{DADOS DO ARTIGO}
+\textbf{A Survey Of Music Information Retrieval Systems. \\}
+\author{Rainer Typke and Frans Wiering and Remco C. Veltkamp \\}
+\date{2005}
+
+\section{RESENHA}
+Embora o MIR seja um campo bastante jovem e os problemas do MIR sejam desafiadores (Byrd e Crawford, 2002), já existem aplicações comerciais dos sistemas MIR.
+A música monofônica pode ser representada por cordas unidimensionais de caracteres, onde cada caractere descreve uma nota ou um par de notas consecutivas. Strings podem representar sequências de intervalo, contorno bruto, sequências de pitches e semelhantes, e algoritmos de correspondência de string bem conhecidos, como algoritmos para calcular distâncias de edição, encontrar a subsequência comum mais longa ou encontrar ocorrências de uma string em outra foram aplicados, às vezes com certas adaptações para torná-los adequados para combinar melodias.
+Uma maneira natural de comparar gravações de áudio de uma forma significativa é extrair uma descrição abstrata do sinal de áudio que reflita os aspectos relevantes da percepção da gravação, seguida pela aplicação de uma função de distância à informação extraída. Uma gravação de áudio é geralmente segmentada em quadros curtos, possivelmente sobrepostos, que duram curtos o suficiente para que não haja vários eventos distinguíveis cobertos por um quadro.
+Wold et al. (1996) listam alguns recursos que são comumente extraídos de quadros de áudio com duração entre 25 e 40 milissegundos:
+
+Loudness: pode ser aproximada pela raiz quadrada da energia do sinal calculado a partir da transformada de Fourier de curto tempo, em decibéis.
+
+Pitch: a transformação de Fourier de um quadro fornece um espectro, a partir do qual uma frequência fundamental pode ser calculada com um algoritmo aproximado do maior divisor comum.
+
+Tom (brilho e largura de banda): O brilho é uma medida do conteúdo de alta frequência do sinal. A largura de banda pode ser calculada como a média ponderada em magnitude das diferenças entre os componentes espectrais e o centroide da transformada de Fourier de curto prazo. É zero para uma única onda senoidal, enquanto o ruído branco ideal tem uma largura de banda infinita.
+
+Coeficientes cepstrais filtrados por Mel (frequentemente abreviados como MFCCs) podem ser calculados aplicando um conjunto espaçado por mel de filtros triangulares à transformada de Fourier de tempo curto, seguido por uma transformada cosseno discreta. A palavra “cepstrum” é um jogo com a palavra “espectro” e tem o objetivo de transmitir que é uma transformação do espectro em algo que descreve melhor as características do som conforme são percebidas por um ouvinte humano. Um mel é uma unidade de medida para a altura percebida de um tom. O ouvido humano é sensível a mudanças lineares na frequência abaixo de 1000 Hz e mudanças logarítmicas acima. Melfiltering é uma escala de frequência que leva esse fato em consideração.
+
+Derivadas: Como o comportamento dinâmico do som é importante, pode ser útil calcular a derivada instantânea (diferenças de tempo) para todos os recursos acima. Os sistemas de recuperação de áudio, como o sistema descrito na Seção 4.16, comparam vetores de tais recursos para encontrar gravações de áudio que soem semelhantes a uma determinada consulta.
+
+Self-Organizing Map (SOM), um algoritmo de rede neural artificial muito popular na categoria de aprendizagem não supervisionada, tem sido usado para agrupar peças musicais semelhantes e classificar peças, por exemplo, por Rauber et al. (2003). A seção 4.14 descreve seu sistema, que extrai vetores de recursos que descrevem padrões de ritmo do áudio e os agrupa com um SOM. Para determinar o gênero de uma determinada peça musical, as abordagens baseadas em áudio parecem promissoras, mas os métodos simbólicos também podem funcionar.
+
+\section{PLAVRAS-CHAVES}
+\begin{itemize}
+    \item SQM
+    \item LOUDNESS
+    \item MFCCs
+    \item MIR
+\end{itemize}
+
+\end{document}
+

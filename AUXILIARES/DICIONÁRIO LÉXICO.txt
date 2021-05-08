@@ -5,3 +5,18 @@ SUBÁREA DA FILOSOFIA QUE SE DEDICA AO ESTUDO DO CONHECIMENTO HUMANO;
 
 IDIOSSINCRÁTICOS - Caracteristico; Próprio; Adjetivo daquilo que é único de determinado grupo, pessoa ou coisa;
 
+HIPERPARÂMETROS - Hiperparâmetros são parâmetros de modelos que devem ser definidos antes de treinar o modelo. 
+Para isso existem diferentes técnicas que buscam otimizá-los que resultará uma melhor acurácia em seu modelo.
+Exemplos de hiperparâmetros: no caso de Random Forest modelos, um dos parâmetros será o número de árvores que será considerado. 
+Para modelos de redes neurais, alguns parâmetros são taxa de aprendizado, número de camadas, quantidade de nó em cada camada entre outros. 
+Para modelos como SVM e SVR, procuramos otmizar os parâmetros c, gamma e epsilon.
+
+ESTADO ESTÁCIONARIO = ESTADO QUE NÃO MUDA AO LONGO DA VIDA
+
+KERNEL = FILTRO DE CONVOLUÇÃO = NEURÔNIO DA REDE NEURAL
+
+AO SE PASSAR O FILTRO PELA IMAGEM, UMA NOVA MATRIZ É GERADA, CHAMADA DE FEATURE MAP
+
+TRANSFORMADA DISCRETA DE FOURIER = TÉCNICA USADA PARA ELIMINAR RUÍDOS NO AUDIO 
+
+

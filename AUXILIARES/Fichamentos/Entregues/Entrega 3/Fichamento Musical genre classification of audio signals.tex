@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Fichamento}
+\author{GABRIEL PRÓSPERO REALIZADOR  SILVA}
+\date{Março 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+
+\section{DADOS DO ARTIGO}
+\textbf{Musical genre classification of audio signals \\}
+\author{Tzanetakis, G. and Cook, P. \\}
+\date{2002}
+
+\section{RESENHA}
+Os gêneros musicais são rótulos categóricos criados por humanos para caracterizar peças musicais. Um gênero musical é caracterizado pelas características comuns compartilhadas por seus membros. Essas características geralmente estão relacionadas à instrumentação, estrutura rítmica e conteúdo harmônico da música. Hierarquias de gênero são comumente usadas para estruturar as grandes coleções de música disponíveis na web.
+A base de qualquer tipo de sistema de análise automática de áudio é a extração de vetores de recursos. Um grande número de conjuntos de recursos diferentes, principalmente originários da área de reconhecimento de voz, foram propostos para representar sinais de áudio. Normalmente, eles são baseados em alguma forma de representação de frequência de tempo.
+Os coeficientes cepstrais de Mel-freqüência (MFCC) [2], são um conjunto de características motivadas pela percepção que têm sido amplamente utilizadas no reconhecimento de fala. Eles fornecem uma representação compacta do envelope espectral, de forma que a maior parte da energia do sinal está concentrada nos primeiros coeficientes.
+No trabalho pioneiro de Wold et al. [8] a recuperação automática, a classificação e o agrupamento de instrumentos musicais, efeitos sonoros e sons ambientais usando recursos extraídos automaticamente são explorados.
+Foote [9] propõe o uso de coeficientes MFCC para construir um quantizador vetorial de árvore de aprendizagem.
+A ideia básica por trás do SPR é estimar a função de densidade de probabilidade (pdf) para os vetores de características de cada classe. Na aprendizagem supervisionada, um conjunto de treinamento rotulado é usado para estimar a pdf de cada classe. No classificador Gaussiano simples (GS), cada pdf é considerada uma distribuição gaussiana multidimensional cujos parâmetros são estimados usando o conjunto de treinamento. No classificador do modelo de mistura gaussiana (GMM), cada classe pdf é assumida como uma mistura de um número específico de distribuições gaussianas multidimensionais. O algoritmo EM iterativo pode ser usado para estimar os parâmetros de cada componente gaussiano e os pesos da mistura.
+
+
+\section{PLAVRAS-CHAVES}
+\begin{itemize}
+    \item coeficientes cepstrais de Mel-freqüência (MFCC)
+    \item modelo de Markov oculto (HMM)
+    \item transformada wavelet discreta (DWT)
+    \item transformada de Fourier de curto prazo (STFT)
+\end{itemize}
+
+\end{document}
+

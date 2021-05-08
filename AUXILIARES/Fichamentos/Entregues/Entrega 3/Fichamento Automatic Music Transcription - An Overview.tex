@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Fichamento}
+\author{GABRIEL PRÓSPERO REALIZADOR  SILVA}
+\date{Abril 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+
+\section{DADOS DO ARTIGO}
+\textbf{Automatic Music Transcription - An Overview \\}
+\author{Emmanouil Benetos\\}
+\date{2019}
+
+\section{RESENHA}
+A capacidade de transcrever o áudio da música em notação musical é um exemplo fascinante de inteligência humana. Envolve percepção (análise de cenas auditivas complexas), cognição (reconhecimento de objetos musicais), representação do conhecimento (formação de estruturas musicais) e inferência (teste de hipóteses alternativas).
+Normalmente, um sistema AMT recebe uma forma de onda de áudio como entrada (Fig. 1a), calcula uma representação de frequência de tempo (Fig. 1b) e produz uma representação de tons ao longo do tempo (também chamada de representação de rolo de piano, Fig. 1c) ou uma partitura musical composta (Fig. 1d).
+AMT está intimamente relacionado a outras tarefas de processamento de sinais musicais [3], como separação de fontes de áudio, que também envolve estimativa e inferência de sinais de fontes a partir de observações de mistura. Também é útil para muitas tarefas de alto nível em MIR [4], como segmentação estrutural, detecção de música cover e avaliação de similaridade musical, uma vez que essas tarefas são muito mais fáceis de abordar uma vez que as notas musicais são conhecidas.
+Embora esteja fora do escopo do documento fornecer uma lista abrangente de software AMT comercial, o software comumente usado inclui Melodyne2, AudioScore3, ScoreCloud4, AnthemScore5 e Transcribe! 6. É importante notar que os artigos AMT na literatura se abstiveram de fazer comparações explícitas com softwares de transcrição de música disponíveis no mercado, possivelmente devido a diferentes escopos e aplicações-alvo entre ferramentas comerciais e acadêmicas.
+Na melhor das hipóteses, as partituras musicais podem ser vistas como rótulos fracos.
+Embora o objetivo final do AMT seja converter uma gravação de música acústica em alguma forma de notação musical, a maioria das abordagens foi projetada para atingir um determinado objetivo intermediário.
+as abordagens AMT podem ser geralmente organizadas em quatro categorias: nível de quadro, nível de nota, nível de fluxo e nível de notação.
+A transcrição em nível de quadro, ou Multi-Pitch Estimation (MPE), é a estimativa do número e da altura das notas que estão simultaneamente presentes em cada quadro de tempo (na ordem de 10 ms).
+A transcrição de nível de nota, ou rastreamento de nota, é um nível acima do MPE, em termos de riqueza de estruturas das estimativas. Ele não apenas estima os tons em cada período de tempo, mas também conecta as estimativas de tom ao longo do tempo em notas.
+Na literatura AMT, uma nota musical é frequentemente caracterizada por três elementos: altura, tempo de início e tempo de compensação [1]. Como os deslocamentos de notas podem ser ambíguos, eles às vezes são negligenciados na avaliação das abordagens de rastreamento de notas e, como tal, algumas abordagens de rastreamento de notas apenas estimam o tom e os tempos de início das notas.
+a transcrição automática de música foi dominada durante a última década por duas famílias algorítmicas: Fatoração de Matriz Não Negativa (NMF) e Redes Neurais (NNs). Ambas as famílias têm sido usadas para uma variedade de tarefas, desde processamento de fala e imagem a sistemas de recomendação e processamento de linguagem natural.
+Um problema ativo na literatura de processamento de sinais musicais é o de detectar e classificar sons não-tonificados em sinais musicais [1, cap. 5]. Na maioria dos casos, isso é expresso como o problema da transcrição de bateria, uma vez que a grande maioria da música contemporânea contém misturas de sons agudos e sons não agudos produzidos por uma bateria. Os componentes do kit de bateria normalmente incluem bumbo, caixa, chimbal, pratos e toms. O problema, neste caso, é detectar e classificar os sons percussivos em uma das classes de sons mencionadas anteriormente. Os elementos do problema de transcrição de bateria que o tornam particularmente desafiador são a presença simultânea de vários sons harmônicos, inarmônicos e não harmônicos no sinal de música, bem como a exigência de uma resolução temporal aumentada para sistemas de transcrição de bateria em comparação com o típico multi-pitch sistemas de detecção.
+\section{PLAVRAS-CHAVES}
+\begin{itemize}
+    \item transcrição automática de música (AMT)
+    \item Reconhecimento Automático de Fala (ASR)
+    \item processamento de linguagem natural (PNL)
+    \item Sound Event Detection (SED)
+    \item Multi-Pitch Estimation (MPE)
+    \item Transcrição de nível de nota
+    \item modelos de Markov ocultos (HMMs)
+    \item Multi-Pitch Streaming (MPS)
+    \item Fatoração de Matriz Não Negativa (NMF)
+    \item Redes Neurais (NNs)
+    \item redes convolucionais
+\end{itemize}
+
+\end{document}
+
