@@ -93,25 +93,33 @@ urlcolor=black
 \makeatother
 
 \renewcommand{\imprimircapa}{%
+
 \begin{capa}%
+
 \begin{figure}[htb]
+
 	\centering
-	\includegraphics[scale=0.35]{logo-unifil.pdf}
+	\includegraphics[width=15cm, height=3cm]{logo-unifil.pdf}
 	%TER A IMAGEM ''logo-unifil.pdf'' NA MESMA PASTA QUE ESTA CLASSE%
+	
 \end{figure}
+
 \begin{center}
 \line(1,0){400}
-\par\vspace*{1cm}
-{\ABNTEXchapterfont\MakeTextUppercase{\imprimirpreambulo}}
-\par
-\vspace{3cm}
-{\ABNTEXchapterfont\MakeTextUppercase{\imprimirautor}}
-\par
-\vspace{3cm}
-\ABNTEXchapterfont\bfseries\large\MakeTextUppercase{\imprimirtitulo}
-\vfill
+
 \par
 \vspace*{1cm}
+{\ABNTEXchapterfont\MakeTextUppercase{\imprimirautor}}
+
+\par
+\vspace{6cm}
+
+\ABNTEXchapterfont\bfseries\large\MakeTextUppercase{\imprimirtitulo}
+\vfill
+
+\par
+\vspace*{1cm}
+%%----------
 \line(1,0){400}
 \par
 \large\imprimirlocal
@@ -120,6 +128,7 @@ urlcolor=black
 \end{center}
 \end{capa}
 }
+%% --------
 
 \definecolor{mygreen}{rgb}{0,0.6,0}
 \definecolor{mygray}{rgb}{0.5,0.5,0.5}
