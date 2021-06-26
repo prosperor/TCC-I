@@ -329,16 +329,4 @@ Au-delà de son apport théorique dans le domaine de la conduction thermique, le
   url       = {https://doi.org/10.1145/3077136.3080680},
 }
 
-@Article{8392419,
-  author  = {Silva, Diego F. and Yeh, Chin-Chia M. and Zhu, Yan and Batista, Gustavo E. A. P. A. and Keogh, Eamonn},
-  journal = {IEEE Transactions on Multimedia},
-  title   = {Fast Similarity Matrix Profile for Music Analysis and Exploration},
-  year    = {2019},
-  number  = {1},
-  pages   = {29-38},
-  volume  = {21},
-  doi     = {10.1109/TMM.2018.2849563},
-  file    = {Artigo:C\:/Users/prosp/Documents/GitHub/TCC-I/BIBLIOTECA/Fast Similarity Matrix Profile for Music Analysis and Exploration.pdf:PDF;Fichamento:C\:/Users/prosp/Documents/GitHub/TCC-I/AUXILIARES/Fichamentos/Entregues/Entrega 4/Fichamento Fast Similarity Matrix Profile for Music Analysis and Exploration.tex:TEX},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}

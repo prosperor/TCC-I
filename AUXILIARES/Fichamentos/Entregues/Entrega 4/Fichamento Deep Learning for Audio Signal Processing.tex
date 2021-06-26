@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Fichamento}
+\author{GABRIEL PRÓSPERO REALIZADOR  SILVA}
+\date{Março 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+
+\section{DADOS DO ARTIGO}
+\textbf{Deep Learning for Audio Signal Processing \\}
+\author{Purwins\\}
+\date{2019}
+
+\section{RESENHA}
+O recente aumento no interesse em aprendizado profundo permitiu aplicações práticas em muitas áreas de processamento de sinal, muitas vezes superando o processamento de sinal tradicional em grande escala.
+métodos usados ​​anteriormente em processamento de sinal de áudio, como modelos de mistura gaussiana, modelos de Markov ocultos e fatoração de matriz não negativa, muitas vezes foram superados por modelos de aprendizado profundo, em aplicações onde dados suficientes estão disponíveis.
+Amostras de áudio brutas formam um sinal de série temporal unidimensional, que é fundamentalmente diferente de imagens bidimensionais. Os sinais de áudio são comumente transformados em representações de frequência de tempo bidimensionais para processamento, mas os dois eixos, tempo e frequência, não são homogêneos.
+O sinal de áudio, representado como uma sequência de quadros de áudio bruto ou vetores de recursos de engenharia humana (por exemplo, log-mel / constante-Q / espectros complexos), matrizes (por exemplo, espectrogramas) ou tensores (por exemplo, espectrogramas empilhados), pode ser analisado por vários modelos de aprendizagem profunda. Semelhante a outros domínios como processamento de imagem, para áudio, múltiplas camadas feedforward, convolucionais e recorrentes (por exemplo, LSTM) são geralmente empilhadas para aumentar a capacidade de modelagem.
+Uma CNN geralmente consiste em uma série de camadas convolucionais intercaladas com camadas agrupadas, seguidas por uma ou mais camadas densas. Para marcação de sequência, as camadas densas podem ser omitidas para obter uma rede totalmente convolucional (FCN). O campo receptivo (o número de amostras ou espectros envolvidos no cálculo de uma predição) de uma CNN é fixado por sua arquitetura.
+Redes Neurais Recorrentes (RNNs): O tamanho do contexto efetivo que pode ser modelado por CNNs é limitado, mesmo quando usando convoluções dilatadas.
+Long short term memory (LSTM) [7] utiliza um mecanismo de passagem e células de memória para mitigar o fluxo de informações e aliviar problemas de gradiente.
+Um modelo de sequência-sequência transduz uma sequência de entrada em uma sequência de saída diretamente. Muitas tarefas de processamento de áudio são essencialmente tarefas de transdução sequência a sequência. No entanto, devido à grande complexidade envolvida nas tarefas de processamento de áudio, os sistemas convencionais geralmente dividem a tarefa em uma série de subtarefas e resolvem cada tarefa de forma independente. Tomando o reconhecimento de voz como exemplo, a tarefa final envolve a conversão dos sinais de áudio temporais de entrada na sequência de palavras de saída.
+O aprendizado profundo é conhecido por ser mais lucrativo quando aplicado a grandes conjuntos de dados de treinamento. O espectro Xm (f, t) é normalmente calculado usando a transformada de Fourier de curto tempo (STFT) porque pode ser implementado de forma eficiente usando o algoritmo de transformada rápida de Fourier e também porque a STFT pode ser facilmente invertida. O uso de outras representações de tempo-frequência também é possível, como espectrogramas de Q constante ou mel. O uso destes, entretanto, tornou-se menos comum, uma vez que reduzem a qualidade da saída, e o aprendizado profundo não requer uma representação de entrada compacta que eles forneceriam em comparação com o STFT.
+Na música, existe uma grande dependência entre fontes simultâneas, bem como existem dependências temporais específicas ao longo do tempo, tanto na forma de onda como em relação às repetições estruturais de longo prazo.
+Um requisito básico é que o som seja reconhecível como proveniente de um determinado objeto / processo ou inteligível, no caso de geração de fala. Ao mesmo tempo, o som gerado deve ser original, ou seja, deve ser significativamente diferente dos sons do conjunto de treinamento, em vez de simplesmente copiar os sons do conjunto de treinamento. Um outro requisito é que os sons gerados apresentem diversidade. Originality can be measured as the average  Euclidean distance between a generated samples to their nearest neighbor in the real training set [140]. A Turing test, asking  a human to distinguish between real and synthesized audio  examples, is a hard test for a model, since passing the Turing  test requires that there is no perceivable difference between  an example being real or being synthesized. The WaveNet,  for example, yields a higher MOS than concatenative or  parametric methods, which represented the previous state of  the art [25].
+Enquanto os MFCCs são a representação mais comum no processamento tradicional de sinais de áudio, os espectrogramas log-mel são a característica dominante no aprendizado profundo, seguidos por formas de onda brutas ou espectrogramas complexos. As formas de onda brutas evitam recursos projetados à mão, o que deve permitir explorar melhor a capacidade de modelagem aprimorada dos modelos de aprendizado profundo, representações de aprendizado otimizadas para uma tarefa. No entanto, isso acarreta custos computacionais e requisitos de dados mais altos, e os benefícios podem ser difíceis de obter na prática.
+\section{PLAVRAS-CHAVES}
+\begin{itemize}
+    \item CNN
+    \item Processamento de sinal de audio
+    \item Extração de recursos
+    \item Redes neurais
+    \item LSTM
+\end{itemize}
+
+\end{document}
+
