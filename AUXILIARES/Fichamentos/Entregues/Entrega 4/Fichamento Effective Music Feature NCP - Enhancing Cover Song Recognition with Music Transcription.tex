@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Fichamento}
+\author{GABRIEL PRÓSPERO REALIZADOR  SILVA}
+\date{Junho 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+
+\section{DADOS DO ARTIGO}
+\textbf{Effective Music Feature NCP: Enhancing Cover Song Recognition with Music Transcription \\}
+\author{Cheng, Yao and Chen, Xiaoou and Yang, Deshun and Xu, Xiaoshuo \\}
+\date{2017}
+
+\section{RESENHA}
+
+Chroma é um recurso amplamente difundido para reconhecimento de covers de músicas, pois é robusto contra componentes não tonais e independente de timbre e instrumentos específicos. 
+No entanto, Chroma é derivado do espectrograma, portanto, fornece uma representação aproximada grosseira da partitura musical. 
+Neste artigo, propomos um recurso semelhante, mas mais eficaz, Note Class Pro le (NCP) derivado de técnicas de transcrição de música. 
+NCP é uma série de tempo multidimensional, cada coluna denota a distribuição de energia de 12 classes de notas. 
+Resultados experimentais em conjuntos de dados de benchmark demonstraram seu desempenho superior em relação aos recursos musicais existentes. 
+Além disso, o recurso NCP pode ser aprimorado ainda mais com o desenvolvimento de técnicas de transcrição de música.
+Supondo que tivéssemos as representações MIDI de cada música, a dificuldade de pesquisa de reconhecimento de música cover seria bastante reduzida, pois recursos simbólicos, como melodia ou acorde, podem ser extraídos mais facilmente do MIDI. 
+No entanto, os arquivos MIDI de canções não são fáceis de obter na realidade, pois os compositores não estão dispostos a publicá-los para proteção de direitos autorais. 
+Inspirados pelos fatos acima, tentamos substituir ConvertedMIDI (convertido de áudio por técnicas de transcrição de música) por Edited-MIDI (o MIDI original escrito por compositor) e exploramos se os resultados experimentais podem ser melhorados em relação aos métodos anteriores. 
+Neste trabalho, derivamos o recurso NCP do Converted-MIDI e demonstramos seu desempenho superior sobre Beat-Chroma e CENS. 
+Além disso, também exploramos por que o NCP mostrou um resultado melhor.
+É mais fácil extrair informações de pitch mais precisas de arquivos MIDI originais do que de arquivos de áudio, no entanto, arquivos MIDI originais geralmente são difíceis de serem acessados por motivos de direitos autorais. 
+Como alternativa, coletamos arquivos MIDI convertidos de peças de áudio com ferramentas de transcrição de música.
+\section{PLAVRAS-CHAVES}
+\begin{itemize}
+    \item CHROMA
+    \item NCP
+    \item MIDI
+    \item Pitch
+\end{itemize}
+
+\end{document}
+

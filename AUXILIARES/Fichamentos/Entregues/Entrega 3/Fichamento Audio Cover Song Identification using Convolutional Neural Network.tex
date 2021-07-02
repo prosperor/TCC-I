@@ -15,9 +15,26 @@
 \date{2017}
 
 \section{RESENHA}
-Até agora, houve algumas tentativas de explorar o aprendizado de máquina para a identificação de covers. Humphrey et al. [2013] usaram codificação esparsa com coeficiente de magnitude de Fourier bidimensional derivado de croma. Recentemente, Heo et al. [2017] tentaram aplicar o aprendizado métrico (Davis et al. [2007]) aos resultados do SimPLe.
-Com base em Hu et al. [2003], primeiro convertemos os sinais de áudio de cada música em um recurso croma de 12 dimensões com uma janela não sobreposta de 1 s. Então, podemos definir uma matriz de similaridade cruzada S em relação a um par de dois recursos de croma {A, B}
-Ao classificar a saída do softmax da CNN treinada, o sistema proposto foi capaz de prever um número fixo dos pares de canções cover mais prováveis. O desempenho do sistema proposto foi comparado com uma abordagem determinística e outra baseada em aprendizado de máquina.
+A maioria dos estudos anteriores extrai os vetores de recursos que caracterizam a relação da música cover de um par de músicas e os usa para calcular a (des) similaridade entre as duas músicas. 
+Com base na observação de que existe um padrão significativo entre as músicas cover e que isso pode ser aprendido, reformulamos o problema de identificação da música cover em uma estrutura de aprendizado de máquina.
+Na música popular, uma canção cover ou versão cover é definida como uma nova gravação produzida por alguém que não é um compositor ou cantor original. 
+As canções cover compartilham elementos musicais importantes, como contornos da melodia, progressões harmônicas básicas e letras, com a canção original. 
+No entanto, eles podem diferir da música original em outros aspectos, como instrumentação, andamento, ritmo, tom, harmonização e arranjo. 
+Aplicações de identificação de música cover incluem recomendação de música baseada em conteúdo, detecção de plágio de música e amostragem de música, para citar alguns. 
+Os métodos convencionais para identificação de cover geralmente combinam uma extração de recursos e uma métrica de distância.
+Usamos uma matriz de similaridade cruzada gerada a partir de um par de músicas como um recurso de entrada. 
+Essa ideia é baseada na observação de que subseqüências semelhantes em canções cover geralmente aparecem como um padrão significativo na matriz de semelhança cruzada. 
+Partindo desse pressuposto, reformulamos o problema de identificação da música cover de áudio na estrutura de classificação de imagens.
+Com base em Hu et al. [2003], primeiro convertemos os sinais de áudio de cada música em um recurso croma de 12 dimensões com uma janela não sobreposta de 1 s. 
+Então, podemos definir uma matriz de similaridade cruzada S em relação a um par de dois recursos de croma {A, B}.
+
+As duas imagens mais à esquerda de (a) foram geradas a partir de pares de coberturas contendo quase os mesmos acompanhamentos, e pudemos observar listras diagonais consistentes com padrões de bloco. 
+Na terceira e na quarta imagens mais à esquerda de (a) foram geradas a partir dos pares de covers produzidos em diferentes ritmos e instrumentações. 
+Embora os padrões de blocos tenham desaparecido, pudemos observar listras diagonais consistentes em contraste com (b) nos pares sem cobertura. 
+Com base nessa observação, assumimos que um modelo de rede neural convolucional para classificação de imagens pode distinguir padrões relevantes da matriz de similaridade cruzada. 
+Mais especificamente, um bloco de camadas convolucionais pode executar sequencialmente subamostragem e correlação cruzada (ou convolução) para distinguir padrões significativos de imagens em muitas escalas diferentes. 
+Atualmente, comparamos apenas os primeiros 180 s de cada música: Observamos que a maioria das gravações de música popular teve durações de três a cinco minutos, e os primeiros três minutos contêm principalmente as melodias principais. 
+Assim, presumimos que os primeiros 180 s de cada música podem fornecer informações relevantes para identificar uma música cover. Se a música durou menos de 180 s, a duração da música foi padronizada com zero-padding.
 
 \section{PLAVRAS-CHAVES}
 \begin{itemize}
