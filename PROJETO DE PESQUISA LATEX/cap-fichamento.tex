@@ -5,30 +5,126 @@
 \begin{description}
 \item[Autores:] Silva, Diego F. and Yeh, Chin-Chia M. and Zhu, Yan and Batista, Gustavo E. A. P. A. and Keogh, Eamonn
 \item[Ano:] 2019
-\item[Relevância:]--
-\item[TERMOS APRENDIDOS]:
+\item[Relevância:] 13 Citações (Google Acadêmico)
 \end{description}
 
-\begin{itemize}
-    \item SSM - 
-    \item SIMPLe -
-    \item SIMPLe-fast -
-\end{itemize}
+{\bfseries Dicionário:}
 
-Faça uma lista de palavras-chave descobertas neste artigo e que foram relevantes para novas buscas de levantamento bibliográfico.
+\item Matriz de semelhança = Uma representação em duas dimensões da semelhança entre duas matrizes diferentes.
+\item Chroma Energy Normalized Statistics (CENS) = O CENS é uma representação derivada da energia de Chroma, que é gerada após algumas etapas de pós-processamento, no intuito de reduzir ao máximo as discrepâncias não essenciais de uma música, a fim de extrair apenas sua sequência de notas.
+\item Pearson Correlation Coefficient (PCC) = Coeficiente usado para medir a correlação entre duas variáveis distintas.
 
-Escreva uma resenha em prosa daquilo que você apreendeu da obra em questão.
+{\bfseries Palavras-chave:}
 
-\section{Título da obra bibliográfica 2}
+\item MASS - Algoritmo mais eficiente conhecido para calcular vetor de distância.
+\item DTW
+
+{\bfseries Resenha}
+
+Uma das maneiras para comparar, não só canções, mas outros tipos de arquivo, é a criação de uma matriz de semelhança, composta por 2 dimensões. Esse tipo de abordagem requer um espaço quadrático em relação ao comprimento do vetor de recursos usados para descrever os áudios contrapostos, fator que torna o processamento quadrático em complexidade de tempo. Segundo o artigo, esse tamanho expressivo tem sua causa nas demasiadas informações, julgadas desnecessárias pelos autores, que abrem possibilidade de otimização se assim o for. O SIMPLE-fast é uma maneira de extrair a matriz de similaridade, apenas com as informações essenciais, em um tempo reduzido.
+Para fazer está comparação, primeiramente o áudio é separado em recortes temporais, onde cada um desses recortes é descrito adentro de um vetor. Cada vetor armazena informações do respectivo recorte que representa (o SIMPLe-fast pode se adaptar a diversas representações de áudio). A extração do SIMPLe, basicamente se forma sobre o cálculo de vetor de distância. Utilizando o MASS, o cálculo de vetor de distância pode ser melhorado, pois não é necessário calcular do zero a cada iteração, já que os resultados do cálculo da janela anterior podem ser reutilizados. 
+
+Mudanças na ordem estrutural da música, podem inserir e excluir segmentos SIMPLe é resistente a variações estruturais, e/ou adições/exclusões em uma música. O artigo mostra uma tentativa interessante de unir o reconhecimento de cover a partir de uma entrada fracionada, como em um streaming, usando o SIMPLe e SIMPLe-fast para atribuir em tempo real qual é o correspondente da música reproduzida.
+
+\section{Audio Cover Song Identification using Convolutional Neural Network}
 
 \begin{description}
-\item[Autores:] Ciclano \emph{et al.}
-\item[Ano:] 2015
-\item[Relevância:] Qualis, índice $H^*$ ou quantidade de citações.
+\item[Autores:] Chang, Sungkyun and Lee, Juheon and Choe, Sang Keun and Lee, Kyogu
+\item[Ano:] 2017
+\item[Relevância:] 22 citações (Google Acadêmico)
 \end{description}
 
-Faça um dicionário, anote todos os termos desconhecidos seguidos de seus significados recém aprendidos.
+{\bfseries Dicionário:}
 
-Faça uma lista de palavras-chave descobertas neste artigo e que foram relevantes para novas buscas de levantamento bibliográfico.
+\item Convolutional Neural Network = Rede Neural Artificial.
 
-Escreva uma resenha em prosa daquilo que você apreendeu da obra em questão.
+\item MAP = Maneira de avaliar os acertos totais do algoritmo de reconhecimento.
+
+
+{\bfseries Palavras-chave:}
+
+\item CNN
+
+{\bfseries Resenha}
+
+O artigo propõe o uso de uma rede neural para analisar e comparar a semelhança dos covers. O sistema proposto consiste em três etapas. No estágio de pré-processamento, convertemos os sinais de áudio em recursos de croma para cada música. Em seguida, geramos matrizes de similaridade cruzada tomando um par de recursos de croma. Por fim, o sistema já treinado, faz a classificação na saída do CNN.
+
+
+\section{Cross recurrence quantification for cover song identification}
+
+\begin{description}
+\item[Autores:] Joan Serrà and Xavier Serra and Ralph G Andrzejak
+\item[Ano:] 2009
+\item[Relevância:] 206 citações (Google Acadêmico)
+\end{description}
+{\bfseries Dicionário:}
+
+\item Mid-level feature = A sequência tonal da música. Pode ser a sequência de notas, ou a sequência de acordes.
+
+{\bfseries Palavras-chave:}
+
+\item Pitch Class Profile = vetores de recursos que representam a intensidade de cada um dos doze semitons da escala tonal.
+
+\item Cross Recurrence Plot (CRP) = Um gráfico (ou matriz), que mostra todos os momentos em que um estado de um sistema dinâmico ocorre simultaneamente com um segundo sistema dinâmico. No caso do MIR, o CRP é usado para comparar as séries temporais de duas músicas diferentes.
+
+{\bfseries Resenha}
+Os métodos de identificação de Cover procuram extrair a sequência tonal para usar na comparação de músicas, esse recurso extraído geralmente é o chroma. A ideia de encontrar as músicas subjacentes de outra música, é uma tarefa de comparação interessante, pois deduz que cada música possui uma essência, que por sua vez, pode ser encontrada e rastreada. 
+
+\section{Effective Music Feature NCP: Enhancing Cover Song Recognition with Music Transcription}
+
+\begin{description}
+\item[Autores:] Cheng, Yao and Chen, Xiaoou and Yang, Deshun and Xu, Xiaoshuo
+\item[Ano:] 2017
+\item[Relevância:] 5 citações (Google Acadêmico)
+\end{description}
+
+{\bfseries Dicionário:}
+
+\item Beat-Chroma = É o recurso chroma que é invariável a variação do tempo/ritmo.
+
+{\bfseries Palavras-chave:}
+
+
+{\bfseries Resenha}
+
+Os métodos de reconhecimento de cover, devem encontrar um método, ou recurso que represente a música e satisfaça a invariância de tonalidade, invariância de ritmo e invariância de estrutura. Os MIDI originais da música, são de difícil obtenção. Os recursos MIDI ainda não são competitivos as outras representações no campo de reconhecimento de cover, pois são recursos grandes e longos.
+
+\section{A Tutorial on Deep Learning for Music Information Retrieval}
+
+\begin{description}
+\item[Autores:] Choi, Keunwoo and Fazekas, György and Cho, Kyunghyun and Sandler, Mark
+\item[Ano:] 2018
+\item[Relevância:] 66 citações (Google Acadêmico)
+\end{description}
+
+{\bfseries Dicionário:}
+
+\item camada neural = conjunto de valores escalares (nós), que se moldam para aprender.
+
+{\bfseries Palavras-chave:}
+ 
+ \item CQT = Representação de áudio
+
+{\bfseries Resenha}
+
+As redes neurais profundas possuem mais camadas neurais que as redes neurais simples. Uma abordagem com rede neural profunda, geralmente é assumida quando a quantidade de dados é elevada. O Espectrograma Mel é uma representação sonora otimizada para a percepção humana.
+
+\section{Cover song recognition based on MPEG-7 audio features}
+
+\begin{description}
+\item[Autores:] Ponighzwa, R. Mochammad Faris and Sarno, Riyanarto and Sunaryono, Dwi
+\item[Ano:] 2017
+\item[Relevância:] 1 citação (Google Acadêmico)
+\end{description}
+
+{\bfseries Dicionário:}
+
+\item KNN = Algoritmo de machine learning, usado para classificar os dados.
+
+{\bfseries Palavras-chave:}
+
+
+{\bfseries Resenha}
+
+É possível usar formatos de compressão, como representações de áudio. O MPEG7 possui diversos recursos atrelados a ele que podem ser extraídos e usados na tarefa de reconhecimento de cover. A biblioteca Java MPEG7AudioEncApp recebe uma música com extensão '.wav' como entrada, e a saída é um documento com extensão '.xml'. Discrete Wavelet Transform ajuda a eliminar o ruído de um espectrograma de instrumento não dominante (em geral, qualquer instrumento que não seja a voz).
+
